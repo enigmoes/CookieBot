@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "CookieBot Remover",
+        "description": "An extension to remove cookie banners"
+    },
+    "extension_description": {
+        "message": "CookieBot Remover",
+        "description": "An extension to remove cookie banner"
+    }
+}
