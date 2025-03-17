@@ -18,7 +18,6 @@ class CookieBot
                 target: {tabId: tab.id},
                 func: getCheck
             }, (result) => {
-                console.log(result)
                 if (typeof result !== 'undefined') {
                     if (result[0].result == 'true') {
                         document.querySelector('.status-text').textContent = 'Desbloqueado';
