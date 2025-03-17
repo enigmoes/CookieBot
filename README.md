@@ -1,2 +1,2 @@
 # CookieBot
-IOS CookieBot Browser Extension
+CookieBot Browser Extension
