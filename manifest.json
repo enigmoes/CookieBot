@@ -23,10 +23,5 @@
             "matches": ["https://*/*"],
             "js": ["src/hideBanner.js"]
         }
-    ],
-    "browser_specific_settings": {
-        "gecko": {
-            "id": "2e097c38e9465989689c6de39e7291f369298f46@enigmo"
-        }
-    }
+    ]
 }
