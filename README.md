@@ -1,2 +1,2 @@
 # CookieBot
-CookieBot Browser Extension for Chromium based browers
+CookieBot Browser Extension for Safari brower
