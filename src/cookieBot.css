@@ -7,6 +7,12 @@ body {
     height: 500px;
 }
 
+.popup-header,
+.popup-container,
+.popup-footer {
+    width: 100%;
+}
+
 .popup-container {
     height: 396px;
 }
