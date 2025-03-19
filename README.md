@@ -1,5 +1,5 @@
 # CookieBot
-CookieBot Browser Extension for Firefox based browers
+CookieBot Browser Extension for Firefox brower
 
 ## Download Link
 ### Firefox ADD-ONS
