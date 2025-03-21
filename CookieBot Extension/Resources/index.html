@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookie Bot</title>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="fontawesome.css">
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/vendor/fontawesome/css/all.css">
     <link rel="stylesheet" href="cookieBot.css">
 </head>
 <body>
@@ -13,11 +13,21 @@
         <div class="popup">
             <div class="popup-header p-3">
                 <div class="row">
-                    <div class="col-2 pe-0">
-                        <img src="cookie_shield_32.png">
+                    <div class="col-2 pe-0 d-flex align-items-center">
+                        <img src="/icons/cookie_shield_32.png">
                     </div>
                     <div class="col-8 ps-0 d-flex align-items-center">
                         <h1 class="title fs-4 m-0 p-0">Cookie Bot</h1>
+                    </div>
+                    <div class="col-2 d-flex align-items-center">
+                        <div id="bd-theme">
+                            <button type="button" class="btn btn-theme" data-bs-theme-value="light" aria-pressed="false">
+                                <i class="fa-solid fa-sun"></i>
+                            </button>
+                            <button type="button" class="btn btn-theme" data-bs-theme-value="dark" aria-pressed="true">
+                                <i class="fa-solid fa-moon"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -43,7 +53,8 @@
             </div>
         </div>
     </div>
-    <script src="bootstrap.bundle.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="colorMode.js"></script>
     <script src="cookieBot.js"></script>
 </body>
 </html>
