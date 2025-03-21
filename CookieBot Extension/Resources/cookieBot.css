@@ -103,3 +103,17 @@ body {
 .fa-red {
     color: #d40000;
 }
+
+@media (max-width: 992px) {
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+    #root,
+    .popup {
+        height: 100%;
+    }
+    .popup-container {
+        height: calc(100% - 108px);
+    }
+}
