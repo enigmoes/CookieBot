@@ -2,9 +2,30 @@
     --blue: #2193b3;
 }
 
+[data-bs-theme=light] {
+    --footer-grey: #F6F6F6;
+    --btn-theme-text-color: #000000;
+}
+
+[data-bs-theme=dark] {
+    --bs-body-bg: #1F1F1F;
+    --footer-grey: #3D3D3D;
+    --btn-theme-text-color: #FFFFFF;
+}
+
 body {
     width: 320px;
     height: 500px;
+}
+
+.btn-theme {
+    display: none;
+    color: var(--btn-theme-text-color);
+    border: none !important;
+}
+
+.btn-theme.active {
+    display: inline;
 }
 
 .popup-header,
@@ -18,7 +39,7 @@ body {
 }
 
 .popup-footer {
-    background-color: var(--bs-gray-700);
+    background-color: var(--footer-grey);
 }
 
 /* FORMS */
