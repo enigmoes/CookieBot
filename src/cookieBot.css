@@ -14,7 +14,8 @@
 }
 
 body {
-    width: 320px;
+    width: 100%;
+    min-width: 320px;
     height: 500px;
 }
 
