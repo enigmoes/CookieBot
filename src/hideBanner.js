@@ -1,3 +1,7 @@
+// Constants
+const API_URL = 'https://cookiebot.enigmo.dev/api/';
+const API_TOKEN = '';
+
 /**
  * Class HideBanner
  */
@@ -6,7 +10,7 @@ class HideBanner
     static init()
     {
         // Init banner clases array
-        this.htmlClases = ['#didomi-host', '#cl-consent', '[data-nosnippet="data-nosnippet"]', '#gaz-gdpr-modal', '#pmConsentWall'];
+        this.htmlClasses = ['#didomi-host', '#cl-consent', '[data-nosnippet="data-nosnippet"]', '#gaz-gdpr-modal', '#pmConsentWall'];
         // Init cookies
         this.cookies = ['_ga', '_ga_*'];
 
@@ -29,7 +33,7 @@ class HideBanner
     static hideBanner()
     {
         // Recorremos banners si no estan vacios
-        this.htmlClases.forEach(element => {
+        this.htmlClasses.forEach(element => {
             setTimeout(() => {
                 let cookieBanner = document.querySelector(element);
                 // Comprobamos si existe el banner y si esta activo el bloqueador
@@ -59,6 +63,11 @@ class HideBanner
     {
         // Habilitamos scroll del body
         document.querySelector('body').style.cssText = 'overflow: hidden !important';
+    }
+
+    static getHtmlClasses()
+    {
+        fetch(API_URL)
     }
 }
 
